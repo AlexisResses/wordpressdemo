@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "0299644b19a1fc006a2b1d227811a167",
+    "content-hash": "b1e241719432bb4975edaaeb291b581f",
     "packages": [
         {
             "name": "composer/installers",
@@ -408,7 +408,8 @@
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/WordPress/WordPress/zipball/refs/tags/5.7.2"
+                "url": "https://api.github.com/repos/WordPress/WordPress/zipball/refs/tags/5.7.2",
+                "reference": "5.7.2"
             },
             "require": {
                 "php": ">=5.3.2",
@@ -918,6 +919,24 @@
                 }
             ],
             "time": "2021-01-20T15:23:13+00:00"
+        },
+        {
+            "name": "wpackagist-theme/bravada",
+            "version": "1.0.5",
+            "source": {
+                "type": "svn",
+                "url": "https://themes.svn.wordpress.org/bravada/",
+                "reference": "1.0.5"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://downloads.wordpress.org/theme/bravada.1.0.5.zip"
+            },
+            "require": {
+                "composer/installers": "~1.0"
+            },
+            "type": "wordpress-theme",
+            "homepage": "https://wordpress.org/themes/bravada/"
         }
     ],
     "packages-dev": [
