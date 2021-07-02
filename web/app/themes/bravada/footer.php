@@ -28,7 +28,6 @@
 		</div><!--#footer-top-->
 		<div id="footer-bottom">
 			<div class="footer-inside">
-				<?php cryout_master_footerbottom_hook(); ?>
 			</div> <!-- #footer-inside -->
 		</div><!--#footer-bottom-->
 	</footer>
